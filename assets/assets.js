@@ -77,7 +77,11 @@ export const assets = {
     right_arrow,
     send_icon,
     right_arrow_bold,
-    right_arrow_bold_dark
+    right_arrow_bold_dark,
+    work_1,
+    work_2,
+    work_3,
+    work_4
 };
 
 export const workData = [
