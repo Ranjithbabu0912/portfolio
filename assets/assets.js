@@ -9,6 +9,8 @@ import vscode from './vscode.png';
 import firebase from './firebase.png';
 import figma from './figma.png';
 import git from './git.png';
+import github from './github.png';
+import github_white from './github_white.png';
 import mongodb from './mongodb.png';
 import right_arrow_white from './right-arrow-white.png';
 import logo from './logo.png';
@@ -35,6 +37,7 @@ import right_arrow from './right-arrow.png';
 import send_icon from './send-icon.png';
 import right_arrow_bold from './right-arrow-bold.png';
 import right_arrow_bold_dark from './right-arrow-bold-dark.png';
+import tick_white from './tick_icon.png'
 
 
 export const assets = {
@@ -49,6 +52,8 @@ export const assets = {
     firebase,
     figma,
     git,
+    github,
+    github_white,
     mongodb,
     right_arrow_white,
     logo,
@@ -75,6 +80,7 @@ export const assets = {
     send_icon,
     right_arrow_bold,
     right_arrow_bold_dark,
+    tick_white,
 
 };
 
@@ -114,6 +120,10 @@ export const infoList = [
     { icon: assets.project_icon, iconDark: assets.project_icon_dark, title: 'Projects', description: 'Built more than 3 projects' }
 ];
 
-export const toolsData = [
-    assets.vscode, assets.firebase, assets.mongodb, assets.figma, assets.git
+export const getToolsData = (isDarkMode) => [
+    assets.vscode,
+    isDarkMode ? assets.github_white : assets.github,
+    assets.mongodb,
+    assets.figma,
+    assets.git
 ];
