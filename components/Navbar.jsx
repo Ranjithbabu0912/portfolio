@@ -43,7 +43,7 @@ const Navbar = ({ isDarkMode, setIsDarkMode }) => {
             </div>
 
             {/* Main Navbar */}
-            <nav className={`w-full fixed px-5 lg:px-8 xl:px-[8%] py-4 flex items-center justify-between z-50 ${isScroll ? "bg-whit bg-opacity-50 backdrop-blur-md shadow-sm dark:bg-darkTheme dark:shadow-white/20" : ""}`}>
+            <nav className={`w-full fixed px-5 lg:px-8 xl:px-[8%] py-4 flex items-center justify-between z-50  ${isScroll ? "bg-whit bg-opacity-50 backdrop-blur-md shadow-sm dark:bg-darkTheme dark:shadow-white/20" : ""}`}>
                 
                 {/* Logo */}
                 <a href="#top">
@@ -56,11 +56,11 @@ const Navbar = ({ isDarkMode, setIsDarkMode }) => {
 
                 {/* Desktop Nav Links */}
                 <ul className={`hidden md:flex items-center gap-6 lg:gap-8 rounded-full px-12 py-3 ${isScroll ? "" : "bg-white shadow-sm bg-opacity-50 dark:border dark:border-white/50 dark:bg-transparent"}`}>
-                    <li><a className='font-Ovo' href="#top">Home</a></li>
-                    <li><a className='font-Ovo' href="#about">About Me</a></li>
-                    <li><a className='font-Ovo' href="#services">Services</a></li>
-                    <li><a className='font-Ovo' href="#work">My Work</a></li>
-                    <li><a className='font-Ovo' href="#contact">Contact me</a></li>
+                    <li><a className='font-Ovo' href="/#top">Home</a></li>
+                    <li><a className='font-Ovo' href="/#about">About Me</a></li>
+                    <li><a className='font-Ovo' href="/#services">Services</a></li>
+                    <li><a className='font-Ovo' href="/#work">My Work</a></li>
+                    <li><a className='font-Ovo' href="/#contact">Contact me</a></li>
                 </ul>
 
                 {/* Right Controls */}
@@ -90,11 +90,11 @@ const Navbar = ({ isDarkMode, setIsDarkMode }) => {
                     <div className='absolute right-6 top-6' onClick={closeMenu}>
                         <Image src={isDarkMode ? assets.close_white : assets.close_black} alt='Close menu' className='w-5 cursor-pointer' />
                     </div>
-                    <li><a className='font-Ovo' onClick={closeMenu} href="#top">Home</a></li>
-                    <li><a className='font-Ovo' onClick={closeMenu} href="#about">About Me</a></li>
-                    <li><a className='font-Ovo' onClick={closeMenu} href="#services">Services</a></li>
-                    <li><a className='font-Ovo' onClick={closeMenu} href="#work">My Work</a></li>
-                    <li><a className='font-Ovo' onClick={closeMenu} href="#contact">Contact me</a></li>
+                    <li><a className='font-Ovo' onClick={closeMenu} href="/#top">Home</a></li>
+                    <li><a className='font-Ovo' onClick={closeMenu} href="/#about">About Me</a></li>
+                    <li><a className='font-Ovo' onClick={closeMenu} href="/#services">Services</a></li>
+                    <li><a className='font-Ovo' onClick={closeMenu} href="/#work">My Work</a></li>
+                    <li><a className='font-Ovo' onClick={closeMenu} href="/#contact">Contact me</a></li>
                 </ul>
             </nav>
         </>

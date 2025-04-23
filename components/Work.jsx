@@ -3,11 +3,12 @@ import Image from 'next/image'
 import React from 'react'
 import { motion } from 'motion/react'
 
-
 const Work = ({ isDarkMode }) => {
+
+
     return (
         <motion.div id='work'
-            className='w-full px-[12%] py-5 scroll-mt-16'
+            className='w-full px-[13%] py-5 scroll-mt-20'
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
             transition={{ duration: 1 }}
@@ -27,7 +28,7 @@ const Work = ({ isDarkMode }) => {
 
 
             <motion.p
-                className='text-center max-w-3xl mx-auto mt-3 font-Ovo'
+                className='text-center max-w-3xl mx-auto mt-2 font-Ovo'
                 initial={{ opacity: 0 }}
                 whileInView={{ opacity: 1 }}
                 transition={{ duration: 0.5, delay: 0.7 }}
@@ -44,12 +45,12 @@ const Work = ({ isDarkMode }) => {
                     workData.map((project, index) => (
                         <motion.div
                             key={index}
-                            style={{ backgroundImage: `url(${project.bgImage})` }}
+                            style={{ backgroundImage: `url(${project.img})` }}
                             className='aspect-square bg-no-repeat bg-center bg-cover rounded-lg relative cursor-pointer group'
                             whileHover={{ scale: 1.03 }}
                             transition={{ duration: 0.3 }}
                         >
-                            <div className='bg-white w-10/12 rounded-md absolute bottom-5 left-1/2 -translate-x-1/2 py-3 px-5 flex items-center justify-between duration-500 group-hover:bottom-7'>
+                            <div className='bg-white w-10/12 shadow-lg rounded-md absolute bottom-5 left-1/2 -translate-x-1/2 py-3 px-5 flex items-center justify-between duration-500 group-hover:bottom-7'>
                                 <div className=''>
                                     <h2 className='font-semibold text-sm'>{project.title}</h2>
                                     <p className='text-xs text-gray-700'>{project.description}</p>
@@ -63,7 +64,7 @@ const Work = ({ isDarkMode }) => {
                 }
             </motion.div>
 
-            <motion.a href="" className='w-max flex items-center justify-center gap-2 text-gray-700 border-[0.5px] border-gray-700 rounded-full px-10 py-3 mx-auto my-2 hover:bg-lightHover duration-500 dark:border-white dark:text-white dark:hover:bg-darkHover '
+            <motion.a href='/Projects' className='w-max flex items-center justify-center gap-2 text-gray-700 border-[0.5px] border-gray-700 rounded-full px-8 py-3 mx-auto -my-2 hover:bg-lightHover duration-500 dark:border-white dark:text-white dark:hover:bg-darkHover '
                 initial={{ opacity: 0, }}
                 whileInView={{ opacity: 1 }}
                 transition={{ duration: 0.5, delay: 1.1 }}

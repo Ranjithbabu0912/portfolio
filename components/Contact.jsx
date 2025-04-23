@@ -40,7 +40,7 @@ const Contact = () => {
     return (
         <motion.div
             id='contact'
-            className='w-full px-[12%] py-5 scroll-mt-16 bg-[url("/footer-bg-color.png")] bg-no-repeat bg-center bg-[length:90%_auto] dark:bg-none'
+            className='w-full px-[12%] py-5 scroll-mt-20 bg-[url("/footer-bg-color.png")] bg-no-repeat bg-center bg-[length:90%_auto] dark:bg-none'
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
             transition={{ duration: 1 }}
@@ -60,7 +60,7 @@ const Contact = () => {
             >Get in Touch</motion.h2>
 
             <motion.p
-                className='text-center max-w-2xl mx-auto mt-5 mb-5 font-Ovo'
+                className='text-center max-w-3xl mx-auto mt-5 mb-5 font-Ovo'
                 initial={{ opacity: 0 }}
                 whileInView={{ opacity: 1 }}
                 transition={{ duration: 0.5, delay: 0.7 }}

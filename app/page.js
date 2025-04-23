@@ -9,6 +9,7 @@ import Work from "@/components/Work";
 import { useEffect, useState } from "react";
 
 export default function Home() {
+  
   const [isDarkMode, setIsDarkMode] = useState(true);
 
   useEffect(() => {

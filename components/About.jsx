@@ -9,7 +9,7 @@ const About = ({ isDarkMode }) => {
 
     return (
         <motion.div id='about'
-            className='w-full px-[12%] py-5 scroll-mt-16'
+            className='w-full px-[12%] py-5 scroll-mt-20'
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
             transition={{ duration: 1 }}
@@ -29,7 +29,7 @@ const About = ({ isDarkMode }) => {
 
 
             <motion.div
-                className='flex w-full flex-col lg:flex-row  items-center gap-10 my-5'
+                className='flex w-full flex-col lg:flex-row items-center justify-center gap-10 my-5'
                 initial={{ opacity: 0 }}
                 whileInView={{ opacity: 1 }}
                 transition={{ duration: 0.8 }}
@@ -43,7 +43,7 @@ const About = ({ isDarkMode }) => {
                     <Image src={assets.user_image} alt='profile' className='w-full rounded-3xl' />
                 </motion.div>
                 <motion.div
-                    className='flex-1'
+                    className='flex-row'
                     initial={{ opacity: 0 }}
                     whileInView={{ opacity: 1 }}
                     transition={{ duration: 0.6, delay: 0.8 }}

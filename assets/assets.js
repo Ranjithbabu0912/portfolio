@@ -37,7 +37,11 @@ import right_arrow from './right-arrow.png';
 import send_icon from './send-icon.png';
 import right_arrow_bold from './right-arrow-bold.png';
 import right_arrow_bold_dark from './right-arrow-bold-dark.png';
-import tick_white from './tick_icon.png'
+import tick_white from './tick_icon.png';
+import work1 from './work-1.png';
+import work2 from './work-2.png';
+import work3 from './work-3.png';
+import work4 from './work-4.png';
 
 
 export const assets = {
@@ -86,24 +90,32 @@ export const assets = {
 
 export const workData = [
     {
-        title: 'Frontend project',
-        description: 'Web Design',
-        bgImage: './work-1.png',
+        title: 'eFoods Web',
+        description: 'Web Development',
+        bgImage: work1,
+        img: "./work-1.png",
+        color: "tomato"
     },
     {
-        title: 'Geo based app',
-        description: 'Mobile App',
-        bgImage: './work-2.png',
+        title: 'Weather App',
+        description: 'Web App',
+        bgImage: work2,
+        img: "./work-2.png",
+        color: "#8C8C8C"
     },
     {
-        title: 'Photography site',
+        title: 'Portfolio site',
         description: 'Web Design',
-        bgImage: './work-3.png',
+        bgImage: work3,
+        img: "./work-3.png",
+        color: "#EFE8D3"
     },
     {
         title: 'UI/UX designing',
         description: 'UI/UX Design',
-        bgImage: './work-4.png',
+        bgImage: work4,
+        img: "./work-4.png",
+        color: "#706D63"
     },
 ]
 
