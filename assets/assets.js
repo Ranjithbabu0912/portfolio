@@ -40,8 +40,8 @@ import right_arrow_bold_dark from './right-arrow-bold-dark.png';
 import tick_white from './tick_icon.png';
 import work1 from './work-1.png';
 import work2 from './work-2.png';
-import work3 from './work-3.png';
-import work4 from './work-4.png';
+import work4 from './work-3.png';
+import work3 from './work-4.png';
 
 
 export const assets = {
@@ -94,28 +94,32 @@ export const workData = [
         description: 'Web Development',
         bgImage: work1,
         img: "./work-1.png",
-        color: "tomato"
+        color: "tomato",
+        href:"https://efoods-web-app.onrender.com"
     },
     {
         title: 'Weather App',
         description: 'Web App',
         bgImage: work2,
         img: "./work-2.png",
-        color: "#8C8C8C"
+        color: "#8C8C8C",
+        href:"https://weather-app-rho-ochre-25.vercel.app/"
     },
     {
-        title: 'Portfolio site',
-        description: 'Web Design',
-        bgImage: work3,
-        img: "./work-3.png",
-        color: "#EFE8D3"
-    },
-    {
-        title: 'UI/UX designing',
-        description: 'UI/UX Design',
+        title: 'Google Gemini',
+        description: 'Clone Web App',
         bgImage: work4,
+        img: "./work-3.png",
+        color: "#706D63",
+        href:"https://gemini-clone-ranjithbabu0912s-projects.vercel.app/"
+    },
+    {
+        title: '3D Robot Website',
+        description: '3D Wep App',
+        bgImage: work3,
         img: "./work-4.png",
-        color: "#706D63"
+        color: "#EFE8D3",
+        href:"https://threed-robot-80k6.onrender.com/"
     },
 ]
 
