@@ -106,20 +106,20 @@ export const workData = [
         href:"https://weather-app-rho-ochre-25.vercel.app/"
     },
     {
-        title: 'Google Gemini',
-        description: 'Clone Web App',
-        bgImage: work4,
-        img: "./work-3.png",
-        color: "#706D63",
-        href:"https://gemini-clone-ranjithbabu0912s-projects.vercel.app/"
-    },
-    {
         title: '3D Robot Website',
         description: '3D Wep App',
         bgImage: work3,
+        img: "./work-3.png",
+        color: "#706D63",
+        href:"https://threed-robot-80k6.onrender.com/"
+    },
+    {
+        title: 'Google Gemini',
+        description: 'Clone Web App',
+        bgImage: work4,
         img: "./work-4.png",
         color: "#EFE8D3",
-        href:"https://threed-robot-80k6.onrender.com/"
+        href:"https://gemini-clone-ranjithbabu0912s-projects.vercel.app/"
     },
 ]
 
