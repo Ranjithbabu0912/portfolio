@@ -65,7 +65,7 @@ const Work = ({ isDarkMode }) => {
                 }
             </motion.div>
 
-            <motion.a href='/Projects' className='w-max flex items-center justify-center gap-2 text-gray-700 border-[0.5px] border-gray-700 rounded-full px-8 py-3 mx-auto -my-2 hover:bg-lightHover duration-500 dark:border-white dark:text-white dark:hover:bg-darkHover '
+            <motion.a href='/portfolio/Projects' className='w-max flex items-center justify-center gap-2 text-gray-700 border-[0.5px] border-gray-700 rounded-full px-8 py-3 mx-auto -my-2 hover:bg-lightHover duration-500 dark:border-white dark:text-white dark:hover:bg-darkHover '
                 initial={{ opacity: 0, }}
                 whileInView={{ opacity: 1 }}
                 transition={{ duration: 0.5, delay: 1.1 }}
