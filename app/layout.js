@@ -15,6 +15,9 @@ const ovo = Ovo({
 export const metadata = {
   title: "Portfolio - Ranjith Babu",
   description: "",
+  icons: {
+    icon: "./letter_r.ico"
+  }
 };
 
 export default function RootLayout({ children }) {
