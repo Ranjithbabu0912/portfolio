@@ -98,12 +98,12 @@ export const workData = [
         href:"https://efoods-web-app.onrender.com"
     },
     {
-        title: 'Weather App',
-        description: 'Web App',
+        title: 'SmartScholar - AI',
+        description: 'LMS (SaaS) Web with AI',
         bgImage: work2,
         img: "./work-2.png",
         color: "#8C8C8C",
-        href:"https://weather-app-rho-ochre-25.vercel.app/"
+        href:"https://saas-app-ranjithbabu0912s-projects.vercel.app/"
     },
     {
         title: '3D Robot Website',
