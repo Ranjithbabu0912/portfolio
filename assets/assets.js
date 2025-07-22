@@ -119,7 +119,7 @@ export const workData = [
         bgImage: work4,
         img: "./work-4.png",
         color: "#EFE8D3",
-        href:"https://imagine-ai-ranjithbabu0912s-projects.vercel.app"
+        href:"https://imagine-ai-bice.vercel.app"
     },
 ]
 
