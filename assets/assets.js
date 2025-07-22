@@ -103,7 +103,7 @@ export const workData = [
         bgImage: work2,
         img: "./work-2.png",
         color: "#8C8C8C",
-        href:"https://saas-app-ranjithbabu0912s-projects.vercel.app/"
+        href:"https://saas-app-ranjithbabu0912s-projects.vercel.app"
     },
     {
         title: '3D Robot Website',
@@ -111,15 +111,15 @@ export const workData = [
         bgImage: work3,
         img: "./work-3.png",
         color: "#706D63",
-        href:"https://threed-robot-80k6.onrender.com/"
+        href:"https://threed-robot-80k6.onrender.com"
     },
     {
-        title: 'Google Gemini',
-        description: 'Clone Web App',
+        title: 'ImagineAi',
+        description: 'multifunctional AI App',
         bgImage: work4,
         img: "./work-4.png",
         color: "#EFE8D3",
-        href:"https://gemini-clone-ranjithbabu0912s-projects.vercel.app/"
+        href:"https://imagine-ai-ranjithbabu0912s-projects.vercel.app"
     },
 ]
 
