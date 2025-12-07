@@ -37,7 +37,7 @@ const Work = ({ isDarkMode }) => {
             </motion.p>
 
             <motion.div
-                className='grid grid-cols-auto my-10 gap-5 dark:text-black'
+                className='grid lg:grid-cols-3 grid-cols-auto my-10 gap-5 dark:text-black'
                 initial={{ opacity: 0, }}
                 whileInView={{ opacity: 1 }}
                 transition={{ duration: 0.6, delay: 0.9 }}>

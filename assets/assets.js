@@ -42,6 +42,7 @@ import work1 from './work-1.png';
 import work2 from './work-2.png';
 import work4 from './work-3.png';
 import work3 from './work-4.png';
+import work5 from './work-5.png';
 
 
 export const assets = {
@@ -104,6 +105,14 @@ export const workData = [
         img: "./work-2.png",
         color: "#8C8C8C",
         href:"https://saas-app-ranjithbabu0912s-projects.vercel.app"
+    },
+    {
+        title: 'CarRental',
+        description: 'Car Rental Web App',
+        bgImage: work5,
+        img: "./work-5.png",
+        color: "#0C9C9C",
+        href:"https://car-rental-ten-alpha.vercel.app"
     },
     {
         title: '3D Robot Website',
